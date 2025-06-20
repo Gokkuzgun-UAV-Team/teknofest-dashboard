@@ -9,7 +9,7 @@ import { useTeams } from "@/hooks/useTeams"
 
 export default function StatsPanel() {
   const teams = useTeams()
-
+  //test
   const [defenseSystems, setDefenseSystems] = useState<DefenseSystem[]>([
     { id: 1, position: { lat: 40.715, lng: 29.015 }, radius: 500, active: true },
     { id: 2, position: { lat: 40.71, lng: 29.01 }, radius: 300, active: false },
